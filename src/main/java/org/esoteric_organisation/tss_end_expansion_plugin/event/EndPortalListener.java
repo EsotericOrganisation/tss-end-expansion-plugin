@@ -1,6 +1,6 @@
-package net.slqmy.tss_endexpansion.event;
+package org.esoteric_organisation.tss_end_expansion_plugin.event;
 
-import net.slqmy.tss_endexpansion.TSSEndExpansionPlugin;
+import org.esoteric_organisation.tss_end_expansion_plugin.TSSEndExpansionPlugin;
 import org.bukkit.World;
 import org.bukkit.entity.EnderDragon;
 import org.bukkit.entity.Entity;

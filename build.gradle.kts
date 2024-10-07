@@ -1,5 +1,3 @@
-import xyz.jpenilla.resourcefactory.bukkit.BukkitPluginYaml
-
 plugins {
     `java-library`
     id("io.papermc.paperweight.userdev") version "1.7.1"
@@ -7,9 +5,9 @@ plugins {
     id("xyz.jpenilla.resource-factory-bukkit-convention") version "1.1.1"
 }
 
-group = "net.slqmy"
+group = "org.esoteric_organisation"
 version = "0.1"
-description = "A plugin designed to make The Slimy Swamp's end much more challenging and difficult."
+description = "A Minecraft plugin designed to make The Slimy Swamp's end much more challenging and difficult."
 
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(21))
@@ -34,11 +32,4 @@ tasks {
     javadoc {
         options.encoding = Charsets.UTF_8.name()
     }
-}
-
-bukkitPluginYaml {
-  main = "net.slqmy.tss_endexpansion.TSSEndExpansionPlugin"
-  load = BukkitPluginYaml.PluginLoadOrder.STARTUP
-  authors.add("Slqmy")
-  apiVersion = "1.21"
 }

@@ -1,13 +1,15 @@
-name: TSS-EndExpansion
+name: tss-end-expansion-plugin
 version: '0.1'
-main: net.slqmy.tss_endexpansion.TSSEndExpansionPlugin
-api-version: '1.20'
-prefix: TSS-EndExpansion
+main: org.esoteric_organisation.tss_end_expansion_plugin.TSSEndExpansionPlugin
+api-version: '1.21'
+prefix: TSS-End-Expansion-Plugin
 dependencies:
   server:
-    TSS-Core:
+    tss-core-plugin:
       required: true
       load: BEFORE
 
-author: slqmy
-description: A plugin designed to make The Slimy Swamp's end much more challenging and difficult.
+author: Esoteric Organisation
+contributors:
+  - Esoteric Enderman
+description: A Minecraft plugin designed to make The Slimy Swamp's end much more challenging and difficult.
