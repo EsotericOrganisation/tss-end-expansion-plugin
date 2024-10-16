@@ -8,7 +8,7 @@ dependencies:
       required: true
       load: BEFORE
 
-author: Esoteric Organisation
-contributors:
+authors:
+  - Esoteric Organisation
   - Esoteric Enderman
 description: A Minecraft plugin designed to make The Slimy Swamp's end much more challenging and difficult.
