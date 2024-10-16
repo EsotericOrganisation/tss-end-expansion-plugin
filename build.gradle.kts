@@ -4,8 +4,8 @@ plugins {
     id("xyz.jpenilla.run-paper") version "2.3.0"
 }
 
-group = "org.esoteric_organisation"
-version = "0.1"
+group = "org.esoteric"
+version = "0.1.0"
 description = "A Minecraft plugin designed to make The Slimy Swamp's end much more challenging and difficult."
 
 java {
@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly(files("../tss-core/build/libs/tss_core-0.1-dev-all.jar"))
+    compileOnly("com.github.EsotericOrganisation:tss-core-plugin:v0.2.1:dev-all")
 
     paperweight.paperDevBundle("1.21-R0.1-SNAPSHOT")
 }

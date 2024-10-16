@@ -1,11 +1,10 @@
-name: tss-end-expansion-plugin
+name: TSSEndExpansion
 version: '0.1'
-main: org.esoteric_organisation.tss_end_expansion_plugin.TSSEndExpansionPlugin
+main: org.esoteric.tss.minecraft.plugins.end.expansion.TSSEndExpansionPlugin
 api-version: '1.21'
-prefix: TSS-End-Expansion-Plugin
 dependencies:
   server:
-    tss-core-plugin:
+    TSSCore:
       required: true
       load: BEFORE
 
